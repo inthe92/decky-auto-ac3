@@ -1,0 +1,11 @@
+{
+  "name": "Dolby Digital 5.1",
+  "author": "seba",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["audio", "dolby-digital", "surround", "hdmi"],
+    "description": "Activa transcodificación AC-3 5.1 en tiempo real para HDMI en SteamOS.",
+    "image": "https://opengraph.githubassets.com/1/SteamDeckHomebrew/PluginLoader"
+  }
+}
