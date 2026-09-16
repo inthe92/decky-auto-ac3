@@ -10,15 +10,12 @@ receptor reciba un bitstream AC-3 5.1 compatible.
 
 ## Uso
 
-1. Instala el plugin en Decky Loader como plugin local (la carpeta debe incluir
-   `dist/index.js`).
-2. Conecta el HDMI y abre **Dolby Digital 5.1** desde el menú de Decky.
-3. Pulsa **Activar transcodificación Dolby Digital 5.1**.
-4. Reproduce audio; la pantalla o el receptor debe indicar `Dolby Digital`.
-
-El botón **Restaurar audio normal** elimina solamente el archivo de usuario
-`~/.config/wireplumber/wireplumber.conf.d/99-decky-dolby-digital.conf` y
-reinicia WirePlumber. No modifica archivos de SteamOS ni instala paquetes.
+No necesitas configurar nada de Linux a mano — el plugin se encarga de todo.
+Activa el Modo Desarrollador en Decky (Menú rápido → pestaña de Decky → icono de engranaje → activar Modo Desarrollador).
+En los ajustes de Desarrollador, usa "Instalar plugin desde ZIP" y elige el archivo descargado.
+Abre el plugin desde la pestaña de Decky, conecta tu TV por HDMI (encendida) y pulsa el botón para activar el cambio automático de HDMI.
+Reinicia tu Steam Deck una vez (solo hace falta la primera vez).
+Listo — a partir de ahora cambia a 5.1 automáticamente al conectar el HDMI, y vuelve a los altavoces de la Deck al desconectarlo.
 
 ## Compatibilidad y límites
 
